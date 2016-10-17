@@ -1,0 +1,40 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Alignment",
+		"All Autocomplete",
+		"Anaconda",
+		"BracketHighlighter",
+		"C++ Snippets",
+		"C++ Starting Kit",
+		"DocBlockr",
+		"Emmet",
+		"Emmet Css Snippets",
+		"Git",
+		"GitGutter",
+		"HTML-CSS-JS Prettify",
+		"HTML5",
+		"IPython Notebook",
+		"jQuery",
+		"JsFormat",
+		"LuaAutocomplete",
+		"Markdown Preview",
+		"Package Control",
+		"PHP MySQLi connection",
+		"Placeholders",
+		"Python Completions",
+		"RailsCasts Colour Scheme",
+		"Sass",
+		"SublimeCodeIntel",
+		"SublimeERB",
+		"SublimeLinter",
+		"SublimeLinter-lua",
+		"SublimePythonIDE",
+		"SyncedSideBar"
+	]
+}
