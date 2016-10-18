@@ -31,11 +31,14 @@
 		"Python Completions",
 		"RailsCasts Colour Scheme",
 		"Sass",
+		"SideBarEnhancements",
 		"SublimeCodeIntel",
 		"SublimeERB",
 		"SublimeLinter",
 		"SublimeLinter-lua",
 		"SublimePythonIDE",
-		"SyncedSideBar"
+		"SyncedSideBar",
+		"SyncedSidebarBg",
+		"Theme - Afterglow"
 	]
 }
