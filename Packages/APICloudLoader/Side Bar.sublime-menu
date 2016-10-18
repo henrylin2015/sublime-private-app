@@ -1,0 +1,29 @@
+[
+	{ 
+	    "caption": "新建APICloud项目",
+	    "children": [
+
+			{
+				"caption": "空白应用",
+				"command": "new_apicloud_default_app", "args": {"dirs": []}
+			},
+			{
+				"caption": "底部导航",
+				"command": "new_apicloud_bottom_app", "args": {"dirs": []}
+			},
+			{
+				"caption": "首页导航",
+				"command": "new_apicloud_home_app", "args": {"dirs": []}
+			},
+			{
+				"caption": "侧边导航",
+				"command": "new_apicloud_slide_app", "args": {"dirs": []}
+			}
+
+		]
+	    },
+	{ "caption": "新建APICloud文件..", "command": "apicloud_new_html", "args": {"dirs": []} },    
+	{ "caption": "Android真机同步..", "command": "apicloud_loader_android", "args": {"dirs": []} },    
+	{ "caption": "IOS真机同步..", "command": "apicloud_loader_ios", "args": {"dirs": []} },    
+	{ "caption": "压缩Widget包..", "command": "compress_widget", "args": {"dirs": []} }
+]
