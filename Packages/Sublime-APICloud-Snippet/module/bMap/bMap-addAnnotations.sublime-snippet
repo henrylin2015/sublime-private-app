@@ -1,0 +1,25 @@
+
+<snippet>
+    <content><![CDATA[
+bMap.addAnnotations({
+    annotations: [{
+        id: ${1:1}, lon: ${2:116.297, lat: ${3:40.109}
+    },{
+        id: ${1:4}, lon: ${5:116.297, lat: ${6:40.109}
+    },{
+        id: ${7:1}, lon: ${8:116.297, lat: ${9:40.109}
+    }],
+    icon: '${10:widget://}',
+    draggable: ${11:true}
+}, function(ret){
+    if(ret){
+        alert(ret.id);
+    }
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bMap-addAnnotations</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>在地图上添加标注信息</description>
+</snippet>

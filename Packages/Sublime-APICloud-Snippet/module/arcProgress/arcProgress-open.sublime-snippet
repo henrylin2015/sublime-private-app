@@ -1,0 +1,21 @@
+
+<snippet>
+    <content><![CDATA[
+arcProgress.open({
+    type: ${1:1},
+    centerX: ${2:api.frameWidth / 6 * (2 * 1  + 1)},
+    centerY: ${3:api.frameHeight / 2},
+    radius: ${4:api.frameWidth / 6},
+    bgColor: '#${5:87c0ed}',
+    pgColor: '#${6:325570}',
+    fixedOn: ${7:api.frameName}
+},function(ret,err){
+    alert(JSON.stringify(ret));
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>arcProgress-open</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>打开圆形进度条</description>
+</snippet>

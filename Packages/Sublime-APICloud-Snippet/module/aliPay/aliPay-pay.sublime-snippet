@@ -1,0 +1,18 @@
+
+<snippet>
+    <content><![CDATA[
+aliPay.pay({
+   subject: '${2:订单名}',
+    body: '${3:订单描述}',
+    amount: '${4:0}${5:.01}',
+    tradeNO: '${6:4563548735674}'
+},function(ret,err) {
+    alert(JSON.stringify(ret));
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>aliPay-pay</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>调用支付宝客户端支付，适用于支付方案二</description>
+</snippet>

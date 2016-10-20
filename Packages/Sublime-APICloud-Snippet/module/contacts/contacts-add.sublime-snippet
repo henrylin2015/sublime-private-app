@@ -1,0 +1,40 @@
+
+<snippet>
+    <content><![CDATA[
+contacts.add({
+    groupId: ${1:1},
+    lastName: '${2:张}',
+    firstName: '${3:三丰}',
+    middleName: '${4:太极}',
+    prefix: '${5:他}',
+    suffix: '${6:牛}',
+    phones: [{
+        '住宅': '${7:12345678}'
+    },{
+        '工作': '${8:87654321}'
+    }],
+    email: '${9:zhengcuan@api.com}',
+    company: '${11:柚子科技}',
+    title: '${12:工程师}',
+    address: {
+        Country: '${13:中国}',
+        State: '${14:北京}',
+        City: '${15:北京市}',
+        Street: '${16:鸟巢街}',
+        ZIP: '${17:100000}'
+    },
+    note: '${18:无}'
+}, function(ret, err){
+    if( ret ){
+        alert( JSON.stringify( ret ) );
+    }else{
+        alert( JSON.stringify( err ) );
+    }
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>contacts-add</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>向通讯录添加一个联系人，所有参数不可同时为空。</description>
+</snippet>

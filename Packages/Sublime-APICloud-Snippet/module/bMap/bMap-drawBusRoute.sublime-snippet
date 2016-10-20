@@ -1,0 +1,23 @@
+
+<snippet>
+    <content><![CDATA[
+bMap.drawBusRoute({
+    id: ${3:1},
+    autoresizing:${4:false},
+    city: ${5:city},
+    uid: ${6:uid},
+    nodeShow: ${7:false}
+},function(ret){
+    if(ret.status){
+        alert(JSON.stringify(ret));
+    }else{
+        alert(JSON.stringify(err));
+    }
+});     
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bMap-drawBusRoute</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>根据 searchBusRoute 搜索返回的 uid 查询线路详情并绘制在地图上</description>
+</snippet>

@@ -1,0 +1,20 @@
+
+<snippet>
+    <content><![CDATA[
+socketManager.write({
+    sid: '${1:1}',
+    data: '${2:你好}'
+}, function(ret, err){        
+    if( ret.status ){
+        alert( JSON.stringify( ret ) );
+    }else{
+        alert( JSON.stringify( err ) );
+    }
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>socketManager-write</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>往某个 socket 写入数据</description>
+</snippet>

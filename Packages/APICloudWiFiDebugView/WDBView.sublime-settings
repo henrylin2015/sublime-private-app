@@ -1,0 +1,18 @@
+{
+    // Set to false to disable auto scroll of the WDB view
+    "wdb_auto_scroll": true,
+
+    // The number of lines at the end of the buffer to use as the "snap point" when
+    // switching between the automatic and manual scrolling modes
+    "wdb_snap_lines": 5,
+
+    // Max number of lines in the adb logcat buffer
+    //"wdb_maxlines": 20000,
+
+    // A regex filter that is used when selecting which lines to display
+    "wdb_filter": ".",
+
+    // Whether or not to just go ahead and launch ADB if there's only one device attached
+    //"wdb_launch_single": true
+
+}

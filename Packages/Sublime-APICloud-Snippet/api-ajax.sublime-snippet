@@ -1,0 +1,27 @@
+
+<snippet>
+    <content><![CDATA[api.ajax({
+    url: '${1:http://192.168.1.101:3101/upLoad}',
+    method: '${2:post}',
+    data: {
+        values: { 
+            name: '${3:haha}'
+        },
+        files: { 
+            file: '${4:fs://a.gif}'
+        }
+    }
+},function(ret, err){
+    if (ret) {
+        alert( JSON.stringify( ret ) );
+    } else {
+        alert( JSON.stringify( err ) );
+    }
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>api-ajax</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>跨域异步请求，支持文件上传</description>
+</snippet>

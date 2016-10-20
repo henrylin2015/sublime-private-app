@@ -1,0 +1,34 @@
+[
+	{ 
+	    "caption": "WiFi真机同步配置",
+	    "children": [
+			{
+				"caption": "安装服务",
+				"command": "install_wifysync_app", "args": {"dirs": []}
+			},	    	
+			{
+				"caption": "启动服务",
+				"command": "start_wifysync_app", "args": {"dirs": []}
+			},
+			{
+				"caption": "查看WiFi真机同步服务器地址",
+				"command": "get_wifisync_info", "args": {"dirs": []}
+			},
+			{
+				"caption": "停止服务",
+				"command": "stop_wifysync_app", "args": {"dirs": []}
+			},
+			{
+				"caption": "启动服务",
+				"command": "mac_start_wifysync_app", "args": {"dirs": []}
+			},
+			{
+				"caption": "停止服务",
+				"command": "mac_stop_wifysync_app", "args": {"dirs": []}
+			}
+		]
+	},
+	{ "caption": "WiFi真机同步..", "command": "apicloud_wifi_sync", "args": {"dirs": []} },
+	{ "caption": "WiFi全量真机同步..", "command": "apicloud_wifi_syncall", "args": {"dirs": []} },
+	{ "caption": "WiFi真机预览..", "command": "apicloud_wifi_preview", "args": {"files": []} }
+]

@@ -1,0 +1,26 @@
+
+<snippet>
+    <content><![CDATA[
+ scrollPicture.open({
+     placeholderImg:'${11:widget://res/scrollPicture_placeholder.png}',
+     paths: ['${1:widget://res/scrollPicture_01.jpg}', '${2:widget://res/scrollPicture_02.jpg}'],
+     subtitle:{
+         titles: ['${6:widget://res/scrollPicture_01.jpg}', '${7:widget://res/scrollPicture_02.jpg}']
+     },
+     control:{
+         position:${14:0}
+     }
+ }, function(ret, err){        
+    if( ret ){
+        alert( JSON.stringify( ret ) );
+    }else{
+        alert( JSON.stringify( err ) );
+    }
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>scrollPicture-open</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>打开图片滚动界面</description>
+</snippet>

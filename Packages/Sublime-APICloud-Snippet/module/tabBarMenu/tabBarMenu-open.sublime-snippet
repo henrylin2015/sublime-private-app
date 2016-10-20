@@ -1,0 +1,103 @@
+
+<snippet>
+    <content><![CDATA[
+tabBarMenu.open({
+    defaultBarSelect: ${1:1},
+    autoLayout: ${2:true},
+    barConfig: {
+        bgImg: '${3:widget://image/tabbar_bg.png}'
+    },
+    barItemConfig: {
+        titleColor: '${4:#fff}',
+        titleSelectColor: '${5:#fff}',
+        fontSize: ${6:11.0},
+        textMarginTop: ${7:41.0},
+        primaryItem: ${8:2}
+    },    
+    barItems: [{
+            title: '${9:动态}',
+            bgImg: '${10:widget://image/tabbar_icon_auth.png}',
+            bgImgClick: '${11:widget://image/tabbar_icon_auth_click.png}'
+        },{
+            title: '${12:与我有关}',
+            bgImg: '${13:widget://image/tabbar_icon_at.png}',
+            bgImgClick: '${14:widget://image/tabbar_icon_at_click.png}'
+        },{
+            title: '${15:动态}',
+            bgImg: '${16:widget://image/tabbar_btn.png}',        
+            bgImgClick: '${17:widget://image/tabbar_btn_click.png}'     
+        },{
+            title: '${18:玩吧}', 
+            bgImg: '${19:widget://image/tabbar_icon_more.png}', 
+            bgImgClick: '${1:widget://image/tabbar_icon_more_click.png}' 
+        },{
+            title: '${20:空间}',
+            bgImg: '${21:widget://image/tabbar_icon_space.png}', 
+            bgImgClick: '${22:widget://image/tabbar_icon_space_click.png}' 
+    }], 
+    menuConfig: {                    
+        coverBgColor: '${23:#000000}',
+        coverAlpha: ${24:0.8},
+       rows: ${25:4}
+    },
+    menuItemConfig: {                    
+        titleColor: '${26:#fff}',
+        titleSelectColor:'${27:#fff}',
+        fontSize: ${28:11.0},
+        textMarginTop: ${29:90.0}
+    },
+    menuItems: [{
+            title: '${30:说说}',
+            bgImg: '${31:widget://image/tabbar_btn_popup_talk.png}',
+            bgImgClick: '${32:widget://image/tabbar_btn_popup_talk_click.png}' 
+        },{
+            title: '${33:照片}',                       
+            bgImg: '${34:widget://image/tabbar_btn_popup_transferphotos.png}',  
+            bgImgClick: '${35:widget://image/tabbar_btn_popup_transferphotos_click.png}'  
+        },{
+            title: '${36:水印相机}',
+            bgImg: '${37:widget://image/tabbar_btn_popup_watermarkcamera.png}',
+            bgImgClick: '${38:widget://image/tabbar_btn_popup_watermarkcamera_click.png}'
+        },{ 
+            title: '${39:视频}',
+            bgImg: '${40:widget://image/tabbar_btn_popup_video.png}', 
+            bgImgClick: '${41:widget://image/tabbar_btn_popup_video_click.png}' 
+        },{
+            title: '${42:签到}',
+            bgImg: '${43:widget://image/tabbar_btn_popup_registration.png}', 
+            bgImgClick: '${44:widget://image/tabbar_btn_popup_registration_click.png}'  
+        },{ 
+            title: '${45:连拍}',
+            bgImg: '${46:widget://image/tabbar_btn_popup_continuousshooting.png}', 
+            bgImgClick: '${47:widget://image/tabbar_btn_popup_continuousshooting_click.png}' 
+        },{
+            itle: '${48:日志}',                      
+            bgImg: '${49:widget://image/tabbar_btn_popup_journal.png}',
+            bgImgClick: '${50:widget://image/tabbar_btn_popup_journal_click.png}'          
+        },{
+            title: '${51:二维码}',
+            bgImg: '${52:widget://image/tabbar_btn_popup_2dbarcode.png}', 
+            bgImgClick: '${1:widget://image/tabbar_btn_popup_2dbarcode_click.png}'
+        },{
+            title: '${53:语音相机}',
+            bgImg: '${54:widget://image/tabbar_btn_popup_videocamera.png}',
+            bgImgClick: '${55:widget://image/tabbar_btn_popup_videocamera_click.png}'  
+        },{
+            title: '${56:位置}',
+            bgImg: '${57:widget://image/tabbar_btn_popup_place.png}', 
+            bgImgClick: '${58:widget://image/tabbar_btn_popup_place_click.png}'  
+        }]    
+}, function(ret, err){        
+    if( ret ){
+        alert( JSON.stringify( ret ) );
+    }else{
+        alert( JSON.stringify( err ) );
+    }
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>tabBarMenu-open</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>打开 open({params}, callback(ret, err))</description>
+</snippet>

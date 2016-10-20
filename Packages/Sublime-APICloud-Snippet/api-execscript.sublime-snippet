@@ -1,0 +1,15 @@
+
+<snippet>
+    <content><![CDATA[
+api.execScript({
+    name: '${3:winName}',
+    frameName: '${4:frmName}',
+    script: '${5:funcGoto();}'
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>api-execScript</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>在指定 window 或者 frame 中执行脚本，对于 frameGroup 里面的 frame 也有效，若 name 和 frameName 都未指定，则在当前 window 中执行脚本，具体执行逻辑见补充说明。</description>
+</snippet>

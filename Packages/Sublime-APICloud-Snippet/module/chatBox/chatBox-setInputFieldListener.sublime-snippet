@@ -1,0 +1,13 @@
+
+<snippet>
+    <content><![CDATA[
+chatBox.setInputFieldListener(function(ret,err){
+     alert( JSON.stringify( ret ) );
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>chatBox-setInputFieldListener</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>设置输入框监听</description>
+</snippet>

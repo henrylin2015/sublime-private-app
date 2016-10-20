@@ -1,0 +1,4 @@
+[
+	{ "keys": ["ctrl+e"], "command": "apicloud_wifi_preview_key" },
+	{ "keys": ["ctrl+i"], "command": "apicloud_wifi_sync_key" }
+]

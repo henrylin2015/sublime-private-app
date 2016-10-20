@@ -1,0 +1,27 @@
+
+<snippet>
+    <content><![CDATA[
+sinaWeiBo.sendRequest({
+    contentType: '${1:video}',
+    text: '${2:这里是测试的内容}',
+    imageUrl: '${3:fs://a.png}',
+    media: {
+        title: '${4:多媒体标题}',
+        description: '${5:多媒体描述}',
+        thumbUrl: '${6:fs://b.png}',
+        videoUrl: '${7:http://v.ku6.com/show/ZgeIWrUgvfSuDN_fl_qNsQ...html}'
+    }
+},function(ret,err){
+    if (ret.status) {
+        alert(JSON.stringify(ret));
+    }else{
+        alert(JSON.stringify(err));
+    }
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>sinaWeiBo-sendRequest</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>发表内容</description>
+</snippet>

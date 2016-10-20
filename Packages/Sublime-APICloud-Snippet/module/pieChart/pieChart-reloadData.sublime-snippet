@@ -1,0 +1,35 @@
+
+<snippet>
+    <content><![CDATA[
+pieChart.reloadData({
+     id: ${1:1},
+     elements: [{
+            value: ${2:15}, 
+            color: '#${3:FF6600}'
+      },{
+            value: ${4:15}, 
+            color: '#${5:660099}'
+      },{
+            value: ${6:15}, 
+            color: '#${7:FF33FF}'
+      },{
+            value: ${8:15}, 
+            color: '#${9:66CCFF}'
+      },{
+            value: ${10:15}, 
+            color: '#${11:00CCFF}'
+      }]
+}, function(ret, err){
+    if( ret ){
+         alert( JSON.stringify( ret ) );
+    }else{
+         alert( JSON.stringify( err ) );
+    }
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>pieChart-reloadData</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>刷新展示数据</description>
+</snippet>

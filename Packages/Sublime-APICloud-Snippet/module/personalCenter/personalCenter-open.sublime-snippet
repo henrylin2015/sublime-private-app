@@ -1,0 +1,47 @@
+
+<snippet>
+    <content><![CDATA[
+personalCenter.open({
+    'y': ${1:44},
+    'imgPath': '${2:widget://res/personalCenter/d7d1d308fe165b984c09728e7118e9f1.jpg}',
+    'placeholderImg': '${3:widget://res/common/placeHolder.png}',
+    'userName': '${4:APICloud}',
+    'count': ${5:382},
+    'modButton': {
+        'bgImg': '${6:widget://res/personalCenter/mod_normal.png}',
+        'lightImg': '${7:widget://res/personalCenter/mod_click.png}'
+    },
+    fixedOn: ${8:api.frameName},
+    'btnArray': [
+        {
+            'bgImg': '${9:widget://res/personalCenter/personal_btn_nor.png}',
+            'selectedImg': '${10:widget://res/personalCenter/personal_btn_sele.png}',
+            'lightImg': '${11:widget://res/personalCenter/personal_btn_light.png}',
+            'title': '${12:好友}',
+            'count': '${13:5}'
+        },
+        {
+            'bgImg': '${14:widget://res/personalCenter/personal_btn_nor.png}',
+            'selectedImg': '${15:widget://res/personalCenter/personal_btn_sele.png}',
+            'lightImg': '${16:widget://res/personalCenter/personal_btn_light.png}',
+            'title': '${17:回贴}',
+            'count': '${18:240}'
+        },
+        {
+            'bgImg': '${19:widget://res/personalCenter/personal_btn_nor.png}',
+            'selectedImg': '${20:widget://res/personalCenter/personal_btn_sele.png}',
+            'lightImg': '${21:widget://res/personalCenter/personal_btn_light.png}',
+            'title': '${22:主题}',
+            'count': '${23:27}'
+        }
+    ]
+},function(ret,err){
+
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>personalCenter-open</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>打开个人中心</description>
+</snippet>

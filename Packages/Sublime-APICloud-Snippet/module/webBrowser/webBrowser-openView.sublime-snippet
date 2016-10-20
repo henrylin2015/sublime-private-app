@@ -1,0 +1,21 @@
+
+<snippet>
+    <content><![CDATA[
+browser.openView({
+    url:'${1:http://m.apicloud.com}',
+    rect:{
+        x:${2:0},
+        y:${3:64},
+        w:'${4:auto}',
+        h:'${5:auto}'
+    }
+}, function(ret, err){
+    alert(JSON.stringify(ret));
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>webBrowser-openView</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>打开一个可指定大小和位置等属性的浏览器视图到当前window。</description>
+</snippet>

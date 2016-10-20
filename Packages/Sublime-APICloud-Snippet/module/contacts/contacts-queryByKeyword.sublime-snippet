@@ -1,0 +1,19 @@
+
+<snippet>
+    <content><![CDATA[
+contacts.queryByKeyword({
+    keyword: '${1:孙}'
+}, function(ret, err){
+    if( ret ){
+        alert( JSON.stringify( ret ) );
+    }else{
+        alert( JSON.stringify( err ) );
+    }
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>contacts-queryByKeyword</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>根据关键字从通讯录查找联系人</description>
+</snippet>

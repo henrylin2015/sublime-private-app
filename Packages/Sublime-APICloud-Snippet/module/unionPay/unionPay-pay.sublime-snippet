@@ -1,0 +1,16 @@
+
+<snippet>
+    <content><![CDATA[
+unionPay.pay({
+    tn: ${9:tn},
+    devMode: ${10:true}
+}, function(ret, err){
+    alert( JSON.stringify( ret ) );
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>unionPay-pay</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>按交易流水号支付订单</description>
+</snippet>

@@ -1,0 +1,17 @@
+
+<snippet>
+    <content><![CDATA[
+weiXin.registerApp(function(ret,err){
+    if (ret.status) {
+        api.alert({msg:''+${1:ret.status});}
+    } else{
+        api.alert({msg:${2:err.msg});}
+    }
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>weiXin-registerApp</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>注册应用</description>
+</snippet>

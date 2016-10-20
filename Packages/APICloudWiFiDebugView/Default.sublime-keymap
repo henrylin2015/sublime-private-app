@@ -1,0 +1,6 @@
+[
+    {
+        "command": "wdb_launch",
+        "keys": ["ctrl+alt+w"]
+    }
+]

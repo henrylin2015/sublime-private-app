@@ -1,0 +1,20 @@
+
+<snippet>
+    <content><![CDATA[api.startLocation({
+    accuracy: '${1:100m}',
+    filter: ${2:1},
+    autoStop: ${3:true}
+}, function(ret, err){
+    if( ret ){
+         alert( JSON.stringify( ret ) );
+    }else{
+       //定位失败
+    }
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>api-startLocation</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>调用系统自带定位功能，开始定位</description>
+</snippet>

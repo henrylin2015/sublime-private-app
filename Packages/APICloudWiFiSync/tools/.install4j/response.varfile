@@ -1,0 +1,7 @@
+# install4j response file for apicloud wifi sync service 1.0
+sys.adminRights$Boolean=true
+sys.installationDir=D\:\\Program Files (x86)\\wifisync
+sys.languageId=en
+sys.programGroupAllUsers$Boolean=true
+sys.programGroupDisabled$Boolean=false
+sys.programGroupName=apicloud wifi sync service

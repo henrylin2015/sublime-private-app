@@ -1,0 +1,23 @@
+
+<snippet>
+    <content><![CDATA[
+fs.exist({
+    path: '${1:fs://file.txt}'
+},function(ret,err){
+    if( ret.exist ){
+        if( ret.directory ){
+            alert( '文件夹' );
+        }else {
+            alert( '文件' );
+        }
+    }else {
+        alert( JSON.stringify( err ) );
+    }
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>fs-exist</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>判断文件是否存在</description>
+</snippet>

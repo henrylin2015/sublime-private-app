@@ -1,0 +1,25 @@
+
+<snippet>
+    <content><![CDATA[
+FNScanner.encodeImg({
+    content: '${1:http://www.apicloud.com/}',
+    saveToAlbum: ${2:true},
+    saveImg: {
+        path: '${3:fs://album.png}',
+        w: ${4:200},
+        h: ${5:200}
+    }
+}, function(ret, err){        
+    if( ret.status ){
+        alert( JSON.stringify( ret ) );
+    }else{
+        alert( JSON.stringify( err ) );
+    }
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>FNScanner-encodeImg</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>将字符串生成二维码/条形码图片</description>
+</snippet>

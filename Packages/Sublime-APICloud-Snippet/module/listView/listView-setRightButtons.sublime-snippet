@@ -1,0 +1,28 @@
+
+<snippet>
+    <content><![CDATA[
+listView.setRightButtons({
+     index:${1:0},
+     rightBtn: [{
+            bg:  '#${2:556B2F}',
+            title: '${6:取消}',
+            titleSize: ${11:13},
+            titleColor: '#${14:000000}',
+            selectedColor: '#${18:FFFFFF}'
+            icon:'${22:widget://image/messageList/delete.png}'
+        }, {
+            bg:  '#${23:4EEE94}',
+            title: '${27:取消置顶}',
+            titleSize: ${32:13},
+            titleColor: '#${35:000000}',
+            selectedColor: '${39:ffffff}',
+            icon:'${43:widget://image/messageList/delete.png}'
+        }]
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>listView-setRightButtons</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>设置侧滑item显示出来按钮</description>
+</snippet>

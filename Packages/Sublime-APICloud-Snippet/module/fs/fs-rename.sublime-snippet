@@ -1,0 +1,20 @@
+
+<snippet>
+    <content><![CDATA[
+fs.rename({
+    oldPath: '${1:fs://file.txt}',
+    newPath: '${2:fs://rename.txt}'
+}, function(ret, err){        
+    if( ret.status ){
+        alert( JSON.stringify( ret ) );
+    }else{
+        alert( JSON.stringify( err ) );
+    }
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>fs-rename</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>重命名</description>
+</snippet>

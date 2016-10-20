@@ -318,7 +318,17 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#DA2000</string>
+                <string>#D02000</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>SublimeLinter Gutter Mark</string>
+            <key>scope</key>
+            <string>sublimelinter.gutter-mark</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
             </dict>
         </dict><dict>
             <key>name</key>
@@ -328,13 +338,13 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#EDBA00</string>
+                <string>#DDB700</string>
             </dict>
         </dict><dict>
             <key>name</key>
-            <string>SublimeLinter Gutter Mark</string>
+            <string>SublimePythonIDE Gutter Mark</string>
             <key>scope</key>
-            <string>sublimelinter.gutter-mark</string>
+            <string>sublimepythonide.gutter-mark</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -349,16 +359,6 @@
             <dict>
                 <key>foreground</key>
                 <string>#DA2000</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
-            <string>SublimePythonIDE Gutter Mark</string>
-            <key>scope</key>
-            <string>sublimepythonide.gutter-mark</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FFFFFF</string>
             </dict>
         </dict><dict>
             <key>name</key>

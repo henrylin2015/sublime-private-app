@@ -1,0 +1,30 @@
+
+<snippet>
+    <content><![CDATA[
+bMap.open({
+    rect: {
+        x: ${1:0},
+        y: ${2:0},
+        w: ${3:320},
+        h: ${4:300}
+    },
+    center: {
+        lon: ${5:116.4021310000},
+        lat: ${7:39.9994480000}
+    },
+    zoomLevel: ${9:10},
+    showUserLocation: ${10:true},
+    fixedOn: ${11:api.frameName},
+    fixed: ${12:true}
+}, function(ret){
+    if(ret.status){
+        alert('地图打开成功');
+    }
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bMap-open</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>打开百度地图</description>
+</snippet>

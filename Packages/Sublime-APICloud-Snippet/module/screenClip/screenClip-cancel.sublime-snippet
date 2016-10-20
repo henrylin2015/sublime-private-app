@@ -1,0 +1,11 @@
+
+<snippet>
+    <content><![CDATA[
+screenClip.cancel();
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>screenClip-cancel</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>取消截图</description>
+</snippet>

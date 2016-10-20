@@ -1,0 +1,28 @@
+
+<snippet>
+    <content><![CDATA[
+chatBox.open({
+    switchButton:{
+        faceNormal : "${3:widget://image/chatBox_face1.png"},
+        faceHighlight : "${4:widget://image/chatBox_face1.png"},
+        addNormal : "${5:widget://image/chatBox_add1.png"},
+        addHighlight : "${6:widget://image/chatBox_add1.png"},
+        keyboardNormal : "${7:widget://image/chatBox_key1.png"},
+        keyboardHighlight : "${8:widget://image/chatBox_key1.png"}
+    },
+    sourcePath:"${9:widget://image/emotion"},
+    addButtons:${10:addButtonAry}
+},function(ret,err){
+    if(ret.click){
+        alert(JSON.stringify(ret));
+    }else{
+        alert(JSON.stringify(err));
+    }
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>chatBox-open</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>打开输入框</description>
+</snippet>

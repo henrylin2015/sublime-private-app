@@ -1,0 +1,15 @@
+
+<snippet>
+    <content><![CDATA[api.openPopoverWin({
+    width: ${1:480},
+    height: ${2:400},
+    name: '${3:page1}',
+    url: '${4:./page1.html}'
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>api-openPopoverWin</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>iPad 上面打开弹出层窗口，弹出层从底部往上弹出，然后显示在屏幕中间一片指定区域，周围为黑色半透明，只 iPad 上面有效</description>
+</snippet>

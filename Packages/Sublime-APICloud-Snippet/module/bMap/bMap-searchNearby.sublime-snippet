@@ -1,0 +1,22 @@
+
+<snippet>
+    <content><![CDATA[
+bMap.searchNearby({
+    keyword: '${1:KTV}',
+    lon: ${2:116.384767},
+    lat: ${4:39.989539},
+    radius: ${6:2000}
+},function(ret,err){
+    if(ret.status){
+        alert(JSON.stringify(ret));
+    }else{
+        alert(JSON.stringify(err));
+    }
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bMap-searchNearby</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>根据单个关键字在圆形区域内搜索兴趣点，无需调用 open 接口即可搜索</description>
+</snippet>

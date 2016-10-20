@@ -1,0 +1,16 @@
+
+<snippet>
+    <content><![CDATA[api.historyBack({
+    frameName:'${1:detail}'
+},function(ret,err){
+    if(!ret.status){
+        api.closeWin();
+    }
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>api-historyBack</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>历史记录后退一页</description>
+</snippet>

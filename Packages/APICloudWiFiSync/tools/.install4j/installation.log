@@ -1,0 +1,805 @@
+[INFO] logger started at Tue Jul 05 14:52:10 CST 2016
+[INFO] executable name: E:\Documents\wifi-sync\exe4j\wifisync_windows_1_0.exe
+[INFO] install4j version: 6.1.2 (build 6275)
+[INFO] Properties: 
+-- listing properties --
+java.runtime.name=Java(TM) SE Runtime Environment
+exe4j.moduleName=E:\Documents\wifi-sync\exe4j\wifisync...
+sun.boot.library.path=c:\users\panyimin\appdata\local\temp\...
+exe4j.semaphoreName=Local\e:_documents_wifi-sync_exe4j_wi...
+java.vm.version=24.80-b11
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+path.separator=;
+exe4j.consoleCodepage=cp0
+java.vm.name=Java HotSpot(TM) Client VM
+file.encoding.pkg=sun.io
+user.script=
+user.country=CN
+sun.os.patch.level=Service Pack 1
+install4j.exeDir=E:\Documents\wifi-sync\exe4j\
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=C:\Users\panyimin\AppData\Local\Temp\...
+java.runtime.version=1.7.0_80-b15
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+java.endorsed.dirs=c:\users\panyimin\appdata\local\temp\...
+os.arch=x86
+java.io.tmpdir=C:\Users\panyimin\AppData\Local\Temp\
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+user.variant=
+exe4j.tempDir=C:\Users\panyimin\AppData\Local\Temp\...
+os.name=Windows 7
+sun.java2d.noddraw=true
+sun.jnu.encoding=GBK
+java.library.path=C:\Users\panyimin\AppData\Local\Temp\...
+sun.awt.enableExtraMouseButtons=true
+java.specification.name=Java Platform API Specification
+java.class.version=51.0
+sun.management.compiler=HotSpot Client Compiler
+exe4j.isInstall4j=true
+os.version=6.1
+user.home=C:\Users\panyimin
+user.timezone=Asia/Shanghai
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+java.specification.version=1.7
+file.encoding=GBK
+user.name=panyimin
+java.class.path=C:\Users\panyimin\AppData\Local\Temp\...
+java.vm.specification.version=1.7
+sun.arch.data.model=32
+java.home=c:\users\panyimin\appdata\local\temp\...
+sun.java.command=E:\Documents\wifi-sync\exe4j\wifisync...
+exe4j.launchName=E:\Documents\wifi-sync\exe4j\wifisync...
+java.specification.vendor=Oracle Corporation
+user.language=zh
+awt.toolkit=sun.awt.windows.WToolkit
+java.vm.info=mixed mode
+exe4j.unextractedPosition=27677616
+java.version=1.7.0_80
+java.ext.dirs=c:\users\panyimin\appdata\local\temp\...
+sun.boot.class.path=c:\users\panyimin\appdata\local\temp\...
+java.vendor=Oracle Corporation
+install4j.appDir=C:\Users\panyimin\AppData\Local\Temp\
+file.separator=\
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+sun.cpu.endian=little
+sun.io.unicode.encoding=UnicodeLittle
+sun.desktop=windows
+sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+m...
+[INFO] com.install4j.runtime.beans.actions.misc.RequestPrivilegesAction [ID 13]: Execute action
+       Property allRequested: false
+       Property failIfNotRootUnix: false
+       Property obtainIfAdminMac: false
+       Property obtainIfAdminWin: true
+       Property obtainIfNormalMac: false
+       Property obtainIfNormalWin: false
+       Property failIfNotObtainedMac: true
+       Property failIfNotObtainedWin: true
+       Property rollbackSupported: false
+       Variable changed: sys.adminRights=true[class java.lang.Boolean]
+       Execute action successful after 974 ms
+[INFO] com.install4j.runtime.beans.screens.StartupScreen [ID 1]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: Show screen
+       thread name AWT-EventQueue-0
+[INFO] Using communication backend com.install4j.runtime.installer.platform.win32.Win32CommunicationBackend
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 4]: Show screen
+       Variable changed: sys.installationDir=D:\Program Files (x86)\wifisync[class java.lang.String]
+       checking writable with maximum
+[INFO] com.install4j.runtime.beans.actions.misc.LoadResponseFileAction [ID 5]: Execute action
+       Property file: null
+       Property excludedVariables: [sys.installationDir]
+       Property overwriteStrategy: Do not overwrite command line
+       Property registerForResponseFile: true
+       Property rollbackSupported: true
+       Response file D:\Program Files (x86)\wifisync\.install4j\response.varfile does not exist
+       Execute action successful after 16 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 4]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 7]: Show screen
+       Variable changed: sys.programGroupName=apicloud wifi sync service[class java.lang.String]
+       Variable changed: sys.programGroupDisabled=false[class java.lang.Boolean]
+       Variable changed: sys.programGroupAllUsers=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 7]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Show screen
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction [ID 9]: Execute action
+       Property checkFreeSpace: true
+       Property installRuntime: true
+       Property saveDownloadedFiles: false
+       Property updateBundledJre: true
+       Property sizeCalculatorScript: null
+       Property validateApplicationId: false
+       Property delay: false
+       Property triggerReboot: true
+       Property fileFilterScript: null
+       Property showFileNames: true
+       Property directoryResolverScript: null
+       Property rollbackSupported: true
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\awt.dll; size: 1174440 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:50 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\axbridge.dll; size: 153000 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\client\jvm.dll; size: 3607464 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\client\Xusage.txt; size: 1447 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\dcpr.dll; size: 142248 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\decora-sse.dll; size: 62888 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\deploy.dll; size: 380840 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\dtplugin\deployJava1.dll; size: 808360 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\dtplugin\npdeployJava1.dll; size: 885160 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\dt_shmem.dll; size: 25512 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\dt_socket.dll; size: 21928 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\eula.dll; size: 109480 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\fontmanager.dll; size: 222120 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\fxplugins.dll; size: 156584 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\glass.dll; size: 159656 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\glib-lite.dll; size: 408488 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\gstreamer-lite.dll; size: 505768 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\hprof.dll; size: 132520 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\installer.dll; size: 207776 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\instrument.dll; size: 115624 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\j2pcsc.dll; size: 16808 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\j2pkcs11.dll; size: 51112 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\jaas_nt.dll; size: 19880 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\jabswitch.exe; size: 48040 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\java-rmi.exe; size: 16296 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\java.dll; size: 120744 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\java.exe; size: 176040 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\JavaAccessBridge-32.dll; size: 128424 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\JavaAccessBridge.dll; size: 127912 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\javacpl.cpl; size: 145408 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\javacpl.exe; size: 68008 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\javafx-font.dll; size: 243624 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\javafx-iio.dll; size: 188328 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\javaw.exe; size: 176040 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\javaws.exe; size: 272808 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\java_crw_demo.dll; size: 23976 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\jawt.dll; size: 14248 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\JAWTAccessBridge-32.dll; size: 15272 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\JAWTAccessBridge.dll; size: 15272 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\JdbcOdbc.dll; size: 45992 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\jdwp.dll; size: 165288 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\jfr.dll; size: 20392 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\jfxmedia.dll; size: 110504 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\jfxwebkit.dll; size: 11896744 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:51 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\jli.dll; size: 143272 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\jp2iexp.dll; size: 203176 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\jp2launcher.exe; size: 76712 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\jp2native.dll; size: 18856 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\jp2ssv.dll; size: 171944 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\jpeg.dll; size: 145832 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\jpicom.dll; size: 93608 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\jpiexp.dll; size: 156072 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\jpinscp.dll; size: 103848 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\jpioji.dll; size: 69032 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\jpishare.dll; size: 142248 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\jqs.exe; size: 182696 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\jsdt.dll; size: 16808 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\jsound.dll; size: 30632 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\jsoundds.dll; size: 27560 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\kcms.dll; size: 178088 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\keytool.exe; size: 16296 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\kinit.exe; size: 16296 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\klist.exe; size: 16296 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\ktab.exe; size: 16296 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\libxml2.dll; size: 504232 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\libxslt.dll; size: 164776 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\management.dll; size: 31656 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\mlib_image.dll; size: 573864 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\msvcr100.dll; size: 773968 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\net.dll; size: 77736 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\nio.dll; size: 51112 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\npjpi170_80.dll; size: 223144 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\npoji610.dll; size: 220584 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\npt.dll; size: 17832 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\orbd.exe; size: 16808 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\pack200.exe; size: 16296 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\plugin2\msvcr100.dll; size: 773968 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:52 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\plugin2\npjp2.dll; size: 167848 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\policytool.exe; size: 16296 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\prism-d3d.dll; size: 44968 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\rmid.exe; size: 16296 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\rmiregistry.exe; size: 16296 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\servertool.exe; size: 16296 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\splashscreen.dll; size: 177064 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\ssv.dll; size: 462760 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\ssvagent.exe; size: 50088 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\sunec.dll; size: 123816 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\sunmscapi.dll; size: 25512 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\t2k.dll; size: 192936 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\tnameserv.exe; size: 16808 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\unpack.dll; size: 58280 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\unpack200.exe; size: 148904 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\verify.dll; size: 39848 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\w2k_lsa_auth.dll; size: 21928 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\WindowsAccessBridge-32.dll; size: 98216 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:50 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\WindowsAccessBridge.dll; size: 96680 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\wsdetect.dll; size: 163240 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:52 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\bin\zip.dll; size: 68520 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\COPYRIGHT; size: 3409 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:50 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\accessibility.properties; size: 155 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:52 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\alt-rt.jar; size: 169385 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:54 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\calendars.properties; size: 1232 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:52 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\charsets.jar; size: 3557240 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:54 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\classlist; size: 75075 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:52 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\cmm\CIEXYZ.pf; size: 51236 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\cmm\GRAY.pf; size: 632 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\cmm\LINEAR_RGB.pf; size: 1044 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\cmm\PYCC.pf; size: 274474 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\cmm\sRGB.pf; size: 3144 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\content-types.properties; size: 5548 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\currency.data; size: 4074 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\deploy\ffjcext.zip; size: 18636 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\deploy\jqs\jqs.conf; size: 40814 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\deploy\jqs\jqsmessages.properties; size: 1720 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\deploy\messages.properties; size: 2860 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\deploy\messages_de.properties; size: 3306 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\deploy\messages_es.properties; size: 3600 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\deploy\messages_fr.properties; size: 3409 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\deploy\messages_it.properties; size: 3223 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\deploy\messages_ja.properties; size: 6349 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\deploy\messages_ko.properties; size: 5719 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\deploy\messages_pt_BR.properties; size: 3348 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\deploy\messages_sv.properties; size: 3409 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\deploy\messages_zh_CN.properties; size: 4072 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\deploy\messages_zh_HK.properties; size: 3752 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\deploy\messages_zh_TW.properties; size: 3752 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\deploy\splash.gif; size: 13959 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\deploy.jar; size: 4698344 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:54 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\ext\access-bridge-32.jar; size: 221304 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:57 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\ext\access-bridge.jar; size: 221291 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\ext\dnsns.jar; size: 8668 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\ext\jaccess.jar; size: 42589 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:58 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\ext\localedata.jar; size: 1015157 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\ext\meta-index; size: 829 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:52 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\ext\sunec.jar; size: 15930 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\ext\sunjce_provider.jar; size: 198307 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\ext\sunmscapi.jar; size: 31111 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\ext\sunpkcs11.jar; size: 238829 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\ext\zipfs.jar; size: 66758 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:58 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\flavormap.properties; size: 3928 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:52 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\fontconfig.bfc; size: 3670 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\fontconfig.properties.src; size: 10479 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\fonts\LucidaBrightDemiBold.ttf; size: 75144 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\fonts\LucidaBrightDemiItalic.ttf; size: 75124 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\fonts\LucidaBrightItalic.ttf; size: 80856 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\fonts\LucidaBrightRegular.ttf; size: 344908 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\fonts\LucidaSansDemiBold.ttf; size: 317896 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\fonts\LucidaSansRegular.ttf; size: 698236 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\fonts\LucidaTypewriterBold.ttf; size: 234068 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\fonts\LucidaTypewriterRegular.ttf; size: 242700 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\i386\jvm.cfg; size: 686 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\images\cursors\cursors.properties; size: 1280 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\images\cursors\invalid32x32.gif; size: 153 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\images\cursors\win32_CopyDrop32x32.gif; size: 165 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\images\cursors\win32_CopyNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\images\cursors\win32_LinkDrop32x32.gif; size: 168 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\images\cursors\win32_LinkNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\images\cursors\win32_MoveDrop32x32.gif; size: 147 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\images\cursors\win32_MoveNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\javafx.properties; size: 29 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\javaws.jar; size: 903346 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:54 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\jce.jar; size: 111813 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:52 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\jfr\default.jfc; size: 18574 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\jfr\profile.jfc; size: 18531 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\jfr.jar; size: 531714 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:54 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\jfxrt.jar; size: 13555830 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:55 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\jsse.jar; size: 530723 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\jvm.hprof.txt; size: 4226 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:52 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\logging.properties; size: 2455 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\management\jmxremote.access; size: 3998 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\management\jmxremote.password.template; size: 2856 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\management\management.properties; size: 14097 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\management\snmp.acl.template; size: 3376 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\management-agent.jar; size: 350 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:55 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\meta-index; size: 2144 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:52 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\net.properties; size: 3070 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\plugin.jar; size: 1936621 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:55 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\psfont.properties.ja; size: 2796 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:52 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\psfontj2d.properties; size: 10393 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\resources.jar; size: 2463127 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:56 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\rt.jar; size: 51836789 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:57 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\security\blacklist; size: 4054 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:52 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\security\cacerts; size: 98626 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\security\java.policy; size: 2593 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\security\java.security; size: 18180 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\security\javafx.policy; size: 158 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\security\javaws.policy; size: 98 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\security\local_policy.jar; size: 2971 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\security\trusted.libraries; size: 0 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\security\US_export_policy.jar; size: 2487 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\sound.properties; size: 1210 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\tzmappings; size: 8400 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Africa\Abidjan; size: 65 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Africa\Accra; size: 437 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Africa\Algiers; size: 333 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Africa\Bissau; size: 77 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Africa\Cairo; size: 1564 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Africa\Casablanca; size: 904 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Africa\Ceuta; size: 1112 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Africa\El_Aaiun; size: 820 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Africa\Johannesburg; size: 105 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Africa\Khartoum; size: 337 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Africa\Lagos; size: 65 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Africa\Maputo; size: 65 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:53 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Africa\Monrovia; size: 77 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Africa\Nairobi; size: 97 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Africa\Ndjamena; size: 89 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Africa\Tripoli; size: 317 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Africa\Tunis; size: 329 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Africa\Windhoek; size: 824 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Adak; size: 1224 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Anchorage; size: 1224 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Antigua; size: 77 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Araguaina; size: 473 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Argentina\Buenos_Aires; size: 549 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Argentina\Catamarca; size: 549 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Argentina\Cordoba; size: 549 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Argentina\Jujuy; size: 533 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Argentina\La_Rioja; size: 557 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Argentina\Mendoza; size: 549 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Argentina\Rio_Gallegos; size: 549 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Argentina\Salta; size: 533 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Argentina\San_Juan; size: 557 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Argentina\San_Luis; size: 557 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Argentina\Tucuman; size: 565 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Argentina\Ushuaia; size: 549 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Asuncion; size: 1116 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Atikokan; size: 93 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Bahia; size: 553 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Bahia_Banderas; size: 844 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Barbados; size: 137 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Belem; size: 297 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Belize; size: 513 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Blanc-Sablon; size: 93 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Boa_Vista; size: 329 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Bogota; size: 89 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Boise; size: 1284 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Cambridge_Bay; size: 1076 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Campo_Grande; size: 1116 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Cancun; size: 405 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Caracas; size: 85 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Cayenne; size: 77 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Cayman; size: 65 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Chicago; size: 1960 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Chihuahua; size: 816 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Costa_Rica; size: 137 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Creston; size: 73 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Cuiaba; size: 1100 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Curacao; size: 77 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Danmarkshavn; size: 341 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Dawson; size: 1108 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Dawson_Creek; size: 509 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Denver; size: 1336 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Detroit; size: 1200 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Edmonton; size: 1316 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Eirunepe; size: 329 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\El_Salvador; size: 105 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Fortaleza; size: 377 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Glace_Bay; size: 1204 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Godthab; size: 1036 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Goose_Bay; size: 1728 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Grand_Turk; size: 669 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Guatemala; size: 137 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Guayaquil; size: 65 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Guyana; size: 89 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Halifax; size: 1908 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Havana; size: 1340 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Hermosillo; size: 189 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Indiana\Indianapolis; size: 868 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Indiana\Knox; size: 1304 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Indiana\Marengo; size: 900 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Indiana\Petersburg; size: 1004 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Indiana\Tell_City; size: 884 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Indiana\Vevay; size: 724 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Indiana\Vincennes; size: 884 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Indiana\Winamac; size: 932 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Inuvik; size: 1060 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Iqaluit; size: 1064 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Jamaica; size: 233 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Juneau; size: 1224 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Kentucky\Louisville; size: 1500 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Kentucky\Monticello; size: 1260 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\La_Paz; size: 81 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Lima; size: 185 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Los_Angeles; size: 1560 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Maceio; size: 393 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Managua; size: 185 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Manaus; size: 313 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Martinique; size: 89 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Matamoros; size: 788 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Mazatlan; size: 840 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Menominee; size: 1216 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Merida; size: 788 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Metlakatla; size: 329 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Mexico_City; size: 880 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Miquelon; size: 928 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Moncton; size: 1732 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Monterrey; size: 788 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Montevideo; size: 1152 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Montreal; size: 1928 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Nassau; size: 1284 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\New_York; size: 1960 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Nipigon; size: 1144 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Nome; size: 1228 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Noronha; size: 377 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\North_Dakota\Beulah; size: 1276 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\North_Dakota\Center; size: 1276 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\North_Dakota\New_Salem; size: 1276 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Ojinaga; size: 816 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Panama; size: 65 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Pangnirtung; size: 1076 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Paramaribo; size: 101 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Phoenix; size: 141 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Port-au-Prince; size: 788 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Porto_Velho; size: 297 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Port_of_Spain; size: 65 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Puerto_Rico; size: 77 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Rainy_River; size: 1144 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Rankin_Inlet; size: 1052 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Recife; size: 377 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Regina; size: 481 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Resolute; size: 1052 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Rio_Branco; size: 313 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Santarem; size: 305 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Santa_Isabel; size: 1276 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Santiago; size: 977 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Santo_Domingo; size: 201 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Sao_Paulo; size: 1116 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Scoresbysund; size: 1040 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Sitka; size: 1224 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\St_Johns; size: 2000 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Swift_Current; size: 241 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Tegucigalpa; size: 121 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Thule; size: 852 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Thunder_Bay; size: 1188 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Tijuana; size: 1276 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Toronto; size: 1928 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Vancouver; size: 1592 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Whitehorse; size: 1108 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Winnipeg; size: 1560 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Yakutat; size: 1220 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\America\Yellowknife; size: 1068 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Antarctica\Casey; size: 101 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Antarctica\Davis; size: 117 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Antarctica\DumontDUrville; size: 81 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Antarctica\Macquarie; size: 785 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Antarctica\Mawson; size: 77 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Antarctica\Palmer; size: 713 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Antarctica\Rothera; size: 65 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Antarctica\Syowa; size: 65 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Antarctica\Troll; size: 620 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Antarctica\Vostok; size: 65 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Almaty; size: 453 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Amman; size: 1036 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Anadyr; size: 585 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Aqtau; size: 453 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Aqtobe; size: 453 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Ashgabat; size: 269 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Baghdad; size: 489 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Baku; size: 976 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Bangkok; size: 65 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Beirut; size: 1208 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Bishkek; size: 485 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Brunei; size: 77 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Chita; size: 589 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Choibalsan; size: 449 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Colombo; size: 129 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Damascus; size: 1300 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Dhaka; size: 121 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Dili; size: 93 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Dubai; size: 65 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Dushanbe; size: 261 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Gaza; size: 1236 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Hebron; size: 1252 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Hong_Kong; size: 617 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Hovd; size: 437 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Ho_Chi_Minh; size: 141 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Irkutsk; size: 589 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Jakarta; size: 129 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Jayapura; size: 85 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Jerusalem; size: 1236 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Kabul; size: 65 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Kamchatka; size: 581 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Karachi; size: 153 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Kathmandu; size: 77 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Khandyga; size: 609 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Kolkata; size: 97 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Krasnoyarsk; size: 589 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Kuala_Lumpur; size: 145 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Kuching; size: 217 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Macau; size: 393 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Magadan; size: 589 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Makassar; size: 85 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Manila; size: 125 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Nicosia; size: 1116 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Novokuznetsk; size: 581 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Novosibirsk; size: 597 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Omsk; size: 589 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Oral; size: 461 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Pontianak; size: 125 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Pyongyang; size: 77 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Qatar; size: 77 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Qyzylorda; size: 465 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Rangoon; size: 85 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Riyadh; size: 65 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Riyadh87; size: 4821 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Riyadh88; size: 4733 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Riyadh89; size: 4765 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Sakhalin; size: 593 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Samarkand; size: 261 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Seoul; size: 233 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Shanghai; size: 201 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Singapore; size: 133 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Srednekolymsk; size: 589 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Taipei; size: 381 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Tashkent; size: 261 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Tbilisi; size: 469 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Tehran; size: 892 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Thimphu; size: 77 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Tokyo; size: 125 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Ulaanbaatar; size: 437 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Urumqi; size: 65 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Ust-Nera; size: 605 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Vladivostok; size: 589 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Yakutsk; size: 589 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Yekaterinburg; size: 601 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Asia\Yerevan; size: 565 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Atlantic\Azores; size: 1868 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Atlantic\Bermuda; size: 1124 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Atlantic\Canary; size: 1044 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Atlantic\Cape_Verde; size: 97 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Atlantic\Faroe; size: 1016 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Atlantic\Madeira; size: 1864 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Atlantic\Reykjavik; size: 609 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Atlantic\South_Georgia; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Atlantic\Stanley; size: 621 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Australia\Adelaide; size: 1224 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Australia\Brisbane; size: 189 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Australia\Broken_Hill; size: 1224 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Australia\Currie; size: 1224 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Australia\Darwin; size: 125 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Australia\Eucla; size: 205 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Australia\Hobart; size: 1288 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Australia\Lindeman; size: 221 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Australia\Lord_Howe; size: 1012 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Australia\Melbourne; size: 1224 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Australia\Perth; size: 205 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Australia\Sydney; size: 1224 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\CET; size: 1184 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\CST6CDT; size: 1272 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\EET; size: 1072 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\EST; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\EST5EDT; size: 1272 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Etc\GMT; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Etc\GMT+1; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Etc\GMT+10; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Etc\GMT+11; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Etc\GMT+12; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Etc\GMT+2; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Etc\GMT+3; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Etc\GMT+4; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Etc\GMT+5; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Etc\GMT+6; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Etc\GMT+7; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Etc\GMT+8; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Etc\GMT+9; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Etc\GMT-1; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Etc\GMT-10; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Etc\GMT-11; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Etc\GMT-12; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Etc\GMT-13; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Etc\GMT-14; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Etc\GMT-2; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Etc\GMT-3; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Etc\GMT-4; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Etc\GMT-5; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Etc\GMT-6; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Etc\GMT-7; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Etc\GMT-8; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Etc\GMT-9; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Etc\UCT; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Etc\UTC; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Amsterdam; size: 1544 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Andorra; size: 968 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Athens; size: 1196 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Belgrade; size: 1040 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Berlin; size: 1236 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Brussels; size: 1564 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Bucharest; size: 1180 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Budapest; size: 1296 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Chisinau; size: 1212 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Copenhagen; size: 1152 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Dublin; size: 1916 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Gibraltar; size: 1676 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Helsinki; size: 1036 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Istanbul; size: 1464 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Kaliningrad; size: 689 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Kiev; size: 1064 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Lisbon; size: 1868 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\London; size: 2024 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Luxembourg; size: 1568 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Madrid; size: 1416 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Malta; size: 1440 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Minsk; size: 605 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Monaco; size: 1576 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Moscow; size: 701 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Oslo; size: 1216 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Paris; size: 1568 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Prague; size: 1216 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Riga; size: 1108 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Rome; size: 1440 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Samara; size: 581 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Simferopol; size: 661 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Sofia; size: 1088 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Stockholm; size: 1040 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Tallinn; size: 1080 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Tirane; size: 1164 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Uzhgorod; size: 1052 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Vienna; size: 1200 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Vilnius; size: 1060 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Volgograd; size: 573 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Warsaw; size: 1416 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Zaporozhye; size: 1072 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Europe\Zurich; size: 1040 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\GMT; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\HST; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Indian\Chagos; size: 77 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Indian\Christmas; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Indian\Cocos; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Indian\Kerguelen; size: 65 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Indian\Mahe; size: 65 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Indian\Maldives; size: 65 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Indian\Mauritius; size: 105 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Indian\Reunion; size: 65 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\MET; size: 1184 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\MST; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\MST7MDT; size: 1272 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Apia; size: 568 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Auckland; size: 1348 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Bougainville; size: 85 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Chatham; size: 1124 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Chuuk; size: 65 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Easter; size: 865 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Efate; size: 233 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Enderbury; size: 89 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Fakaofo; size: 77 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Fiji; size: 588 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Funafuti; size: 65 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Galapagos; size: 77 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Gambier; size: 65 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Guadalcanal; size: 65 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Guam; size: 65 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Honolulu; size: 105 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Kiritimati; size: 89 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Kosrae; size: 85 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Kwajalein; size: 89 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Majuro; size: 77 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Marquesas; size: 65 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Midway; size: 89 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Nauru; size: 97 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Niue; size: 89 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Norfolk; size: 77 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Noumea; size: 121 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Pago_Pago; size: 65 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Palau; size: 65 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Pitcairn; size: 77 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Pohnpei; size: 65 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Port_Moresby; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Rarotonga; size: 285 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Saipan; size: 77 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Tahiti; size: 65 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Tarawa; size: 65 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Tongatapu; size: 133 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Wake; size: 65 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\Pacific\Wallis; size: 65 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\PST8PDT; size: 1272 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\SystemV\AST4; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\SystemV\AST4ADT; size: 2288 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\SystemV\CST6; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\SystemV\CST6CDT; size: 2288 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\SystemV\EST5; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\SystemV\EST5EDT; size: 2288 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\SystemV\HST10; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\SystemV\MST7; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\SystemV\MST7MDT; size: 2288 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\SystemV\PST8; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\SystemV\PST8PDT; size: 2288 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\SystemV\YST9; size: 27 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\SystemV\YST9YDT; size: 2288 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\WET; size: 1068 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\lib\zi\ZoneInfoMappings; size: 16718 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\LICENSE; size: 41 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:50 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\README.txt; size: 47 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\release; size: 506 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:53 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\THIRDPARTYLICENSEREADME-JAVAFX.txt; size: 111645 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:51:50 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\jre\THIRDPARTYLICENSEREADME.txt; size: 176988 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\jre\Welcome.html; size: 979 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\.install4j\i4jdel.exe; size: 79904 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:48:30 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\.install4j\i4jinst.dll; size: 134656 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\APICloudWiFiSync.exe; size: 219648 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:48:30 CST 2016, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\APICloudWiFiSync.vmoptions; size: 281 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:48:30 CST 2016, mode: 644, overwriteMode: Never, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\output\windows-x86-1.7.0_80.tar.gz; size: 25280578 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:48:30 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\uninstall.exe; size: 323584 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:48:30 CST 2016, mode: 700, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\wifisync.jar; size: 8509651 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:48:30 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\.install4j\inst_jre.cfg; size: 68 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:52:45 CST 2016, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\.install4j\pref_jre.cfg; size: 37 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:52:45 CST 2016, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\.install4j\i4jruntime.jar; size: 1927176 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:52:45 CST 2016, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: D:\Program Files (x86)\wifisync\.install4j\MessagesDefault; size: 33540 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\.install4j\i4jparams.conf; size: 16819 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\.install4j\stats.properties; size: 272 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\.install4j\user.jar; size: 4400 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\.install4j\i4j_extf_0_1rvd18a.utf8; size: 33540 bytes; exists: false
+       Install file: D:\Program Files (x86)\wifisync\.install4j\installer.ico; size: 15749 bytes; exists: false
+       Execute action successful after 23992 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 10]: Execute action
+       Property allUsers: true
+       Property categories: Application
+       Property linkDirectory: 
+       Property programGroupName: apicloud wifi sync service
+       Property unixSymlinks: true
+       Property addUninstaller: true
+       Property unixMenuEntries: true
+       Property programGroupEntryConfigs: []
+       Property uninstallerMenuName: apicloud wifi sync service Uninstaller
+       Property addDefaultLauncherLinks: true
+       Property failForSymlinksNotCreated: false
+       Property rollbackSupported: true
+       Install file: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\apicloud wifi sync service\APICloud WiFiSync Service.lnk; size: 842 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:52:46 CST 2016, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\apicloud wifi sync service\apicloud wifi sync service Uninstaller.lnk; size: 807 bytes; exists: false
+       File options set to: [fileTime: Tue Jul 05 14:52:46 CST 2016, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Execute action successful after 190 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction [ID 11]: Execute action
+       Property icon: null
+       Property iconSource: Installer icon
+       Property itemName: apicloud wifi sync service 1.0
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Execute action successful after 107 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Rollback barrier reached
+       command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: Show screen
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: command: finish
+       cleaning up
+       Finished

@@ -1,0 +1,33 @@
+
+<snippet>
+    <content><![CDATA[
+contact.addContact({
+    groupId:${1:1},
+    firstName:'${2:张}',
+    lastName:'${3:三}',
+    phones:[${4:{label:'住宅',phone:'123'}},${5:{label:'工作',phone:'456}'}],
+    address: {
+        Country:'${12:中国}',
+        State:'${13:北京}',
+        City:'${14:北京市}',
+        Street:'${15:鸟巢街}',
+        ZIP:'${16:100000}'
+    },
+    email:'${17:zhengcuan.sun@api.com}',
+    company:'${19:柚子科技}',
+    title:'${20:工程师}',
+    note:'${21:无}'
+},function(ret,err) {
+    if(ret.status) {
+        alert(JSON.stringify(ret));
+    } else{
+        alert(JSON.stringify(err));
+    }
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>contact-addContact</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>往通讯录添加一个联系人</description>
+</snippet>

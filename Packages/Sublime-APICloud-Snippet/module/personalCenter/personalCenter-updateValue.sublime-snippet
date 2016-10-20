@@ -1,0 +1,22 @@
+
+<snippet>
+    <content><![CDATA[
+personalCenter.updateValue({
+    imgPath: '${1:widget://res/filterMe.png}',
+    userName: '${2:柚子科技}',
+    count: '${3:2014}',
+    btnArray: [{
+        count: '${4:123}'
+    },{
+        count: '${5:123}'
+    },{
+        count: '${6:123}'
+    }]
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>personalCenter-updateValue</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>刷新个人中心显示数据</description>
+</snippet>

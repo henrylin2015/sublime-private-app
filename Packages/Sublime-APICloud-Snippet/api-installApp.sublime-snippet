@@ -1,0 +1,13 @@
+
+<snippet>
+    <content><![CDATA[
+api.installApp({
+    appUri: '${2:https://list.kuaiapp.cn/list/KuaiAppZv7.1.plist}'
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>api-installApp</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>安装应用</description>
+</snippet>

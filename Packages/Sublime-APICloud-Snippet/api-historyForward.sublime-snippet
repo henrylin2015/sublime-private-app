@@ -1,0 +1,16 @@
+
+<snippet>
+    <content><![CDATA[api.historyForward({
+    frameName:'${1:detail}'
+},function(ret,err){
+    if(!ret.status){
+
+    }
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>api-historyForward</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>历史记录前进一页</description>
+</snippet>
